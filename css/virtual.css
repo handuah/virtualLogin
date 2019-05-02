@@ -1,0 +1,87 @@
+body{
+ /* overflow: hidden;*/ /*hides both scrollbars*/
+}
+
+#rotate-text{
+    background-color: rgb(96, 94, 95);
+ }
+
+.rotate{
+   writing-mode: vertical-rl;
+   text-orientation: sideways-right;
+   transform: rotate(180deg);
+   padding-top: 20%;
+   color: white;
+}
+.pb-5{
+    padding-bottom: 150% !important;
+}
+
+.bottom{
+    padding-top: 100% !important;
+}
+
+#header{
+    background: url(../img/share-section1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    
+}
+
+.dark-overlay{
+    background-color: rgba(96, 94, 95, 0.7);
+    padding-top: 109%;
+    margin-top: -80%; 
+    width: 105%;
+    margin-left: -3%;
+    
+}
+
+/*places text above overlay*/
+#elements .row{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.container h4{
+    margin-top: 40%;
+}
+
+h5{
+    font-size: 0.8rem;
+}
+
+.btn-primary{
+background-color: rgb(92, 83, 198);
+}
+
+.btn-danger{
+    width: 40%;
+}
+
+.form-check-input{
+    cursor: pointer;
+}
+
+.form-check a{
+    margin-left: 35%;
+    color: black;
+}
+
+/* input[type="checkbox"] + label::before{
+    background-color: red !important;
+} */
+
+.form-check .checkbox-container .form-check-input[type = "checkbox"]{ 
+    width: 15px;
+    height: 15px;
+    background-color: red !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    }
